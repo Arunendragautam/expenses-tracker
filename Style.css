@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ADD8E6; /* Pale Blue */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #F0F8FF; /* Alice Blue */
+    padding: 20px;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Adjusted the opacity */
+    opacity: 0;
+    animation: fadeIn 0.5s forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.8rem;
+}
+
+button {
+    background-color: #3a87ad; /* Sky Blue */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 4%;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+button:hover {
+    background-color: #87CEEB; /* Darker shade of blue */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #F5F5F5; /* Light Gray */
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
