@@ -22,3 +22,10 @@ function addExpense() {
         alert("Please enter a valid description and amount.");
     }
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('change', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+});
